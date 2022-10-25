@@ -1,0 +1,15 @@
+footer {
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-top:  1px solid #038b82;
+    background: #038b82;
+}
+
+
+footer a {
+    font-size: 70%;
+    text-decoration: none;
+    color:rgb(232, 232, 232);
+
+}
