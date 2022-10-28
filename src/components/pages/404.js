@@ -1,4 +1,4 @@
-function pageNotFound() {
+function PageNotFound() {
     //Properties------------------------------
     //Hooks-----------------------------------
     //Context---------------------------------
@@ -9,4 +9,4 @@ function pageNotFound() {
     )
 }
 
-export default pageNotFound;
+export default PageNotFound;

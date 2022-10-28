@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Header.css';
 function Header() {
     //Properties------------------------------
@@ -6,17 +8,20 @@ function Header() {
     //Methods---------------------------------
     //View------------------------------------
     return (
+        <div class="background-image">
         <header>
-            <a> 
-                <img scr="https://img.icons8.com/ios/50/000000/storytelling.png" alt = "Book Icon"/> 
-            </a>
-            <a>
+            <Link to= "/"> 
+                <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/344/external-owl-animals-dreamstale-lineal-dreamstale-1.png" alt = "Book Icon" size=''/> 
+            </Link>
+            
+            <Link to = "/">
                 <h1> Homework App</h1>
-            </a>
+            </Link>
             <div className = "login">
             <p>Hello user</p>
             </div>
         </header> 
+        </div>
     )
 }
 
