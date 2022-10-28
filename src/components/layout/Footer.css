@@ -3,13 +3,14 @@ footer {
     display: grid;
     place-items: center;
     border-top:  1px solid #038b82;
-    background: #038b82;
+    background: #956658;
+    opacity: 0.5;
 }
 
 
 footer a {
-    font-size: 70%;
+    font-size: 90%;
     text-decoration: none;
-    color:rgb(232, 232, 232);
+    color:rgb(0, 0, 0);
 
 }
