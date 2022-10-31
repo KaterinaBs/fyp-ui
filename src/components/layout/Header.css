@@ -1,39 +1,34 @@
-header{
-    color:#956658;
-    display: flex;
-    background-color:#e4dbd998;
+header {
+   color: #956658;
+   display: flex;
+   background-color: #e4dbd998;
 }
 header a img {
    margin-left: 20px;
    width: 80px;
-  
-    
 }
-
- header a h1 {
-    color:#956658;
-    margin-left: 20px;
-    margin-top: 20px;;
-    font-size: 200%;
-    
- }
-
- header a {
+header a h1 {
+   color: #956658;
+   margin-left: 20px;
+   margin-top: 20px;
+   ;
+   font-size: 200%;
+}
+header a {
    text-decoration: none;
- }
- 
- header a :hover,
- header a :active {
-    color:#95665898 ;
-    
- }
- header div.login {
-    flex:1;
-    margin-right: 20px;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+}
+header a :hover,
+header a :active {
+   color: #95665898;
+
+}
+header div.login {
+   flex: 1;
+   margin-right: 20px;
+   text-align: right;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
 
 }
  

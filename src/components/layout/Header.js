@@ -8,7 +8,7 @@ function Header() {
     //Methods---------------------------------
     //View------------------------------------
     return (
-        <div class="background-image">
+        <div className="background-image">
         <header>
             <Link to= "/"> 
                 <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/344/external-owl-animals-dreamstale-lineal-dreamstale-1.png" alt = "Book Icon" size=''/> 

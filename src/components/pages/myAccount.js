@@ -1,12 +1,12 @@
-function contactUs() {
+function MyAccount() {
     //Properties------------------------------
     //Hooks-----------------------------------
     //Context---------------------------------
     //Methods---------------------------------
     //View------------------------------------
     return (
-        <h1>Contact Us</h1> 
+        <h1> My Account </h1> 
     )
 }
 
-export default contactUs;
+export default MyAccount;

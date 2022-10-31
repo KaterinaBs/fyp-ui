@@ -20,8 +20,6 @@ function Layout(props) {
                 {props.children}
             </main>
             <Footer />
-
-            
         </div>
         
     )

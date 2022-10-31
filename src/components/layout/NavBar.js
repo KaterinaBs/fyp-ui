@@ -9,20 +9,15 @@ function NavBar() {
 
     const getLinkStyle = ({isActive})=> (isActive ? 'navSelected' : null);
     //View------------------------------------
-
-
-
     return (
         <nav>
             <div className = "navItem">
-                <NavLink to='/' className={getLinkStyle}> Home </NavLink>
+                <NavLink to='/' className={getLinkStyle}> My modules </NavLink>
             </div>
             <div className = 'navItem'>
-                <NavLink to='/signin' className={getLinkStyle}> Sign In </NavLink>
+                <NavLink to='/myaccount' className={getLinkStyle}> My Account </NavLink>
             </div>
-            <div className = 'navItem'>
-                <NavLink to='/contact' className={getLinkStyle}> Contact Us</NavLink>
-            </div>
+            
         </nav>
     )
 }
