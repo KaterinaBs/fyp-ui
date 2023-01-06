@@ -1,34 +1,55 @@
-header {
-   color: #956658;
-   display: flex;
-   background-color: #e4dbd998;
+
+  header {
+   background-color: rgb(255, 255, 255); 
+   padding:15px;
+   text-align: center;
 }
-header a img {
-   margin-left: 20px;
-   width: 80px;
+header li{
+   display: inline;
+   padding-left: 40px;
 }
-header a h1 {
-   color: #956658;
-   margin-left: 20px;
-   margin-top: 20px;
-   ;
-   font-size: 200%;
-}
-header a {
+
+
+header li a{
+   color: gray;
    text-decoration: none;
-}
-header a :hover,
-header a :active {
-   color: #95665898;
+   font-family: Arial, Helvetica, sans-serif;
 
 }
-header div.login {
-   flex: 1;
-   margin-right: 20px;
-   text-align: right;
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-end;
 
+
+header li a:hover{
+   color: royalblue;
+}
+
+
+header a.logout{
+   color: #f1f1f1;
+   background-color: royalblue;
+   border-radius: 30px;
+   float: right;
+   position: relative;
+   top:-5px;
+   padding:8px
+ 
+} 
+
+header a.logout:hover{
+   color: #f1f1f1;
+}
+.active{
+   color: royalblue;
 }
  
+header a.logo {
+   color:gray;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 20px;
+   margin-top: -30px;;
+   font-size: 20px;
+   float: left;
+   
+   
+}
+

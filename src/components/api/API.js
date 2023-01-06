@@ -13,13 +13,14 @@ API.delete = (endpoint) => callFetch(endpoint, 'DELETE', null);
     let requestObj = { method:method};  // GET, POST,PU,DELETE
     if(dataObject) requestObj = {
         ...requestObj,
-        header:{ 'Content-type': 'application/json'},
+        headers:{ 'Content-type': 'application/json'},
         body:JSON.stringify(dataObject)
 
     };
     //Call the fetch and process the return
     try{
     const fullEndpoint = API_URL + endpoint; 
+    console.log(`endpoint=[${fullEndpoint}] object = [${JSON.stringify(requestObj)}]`);
     const response = await fetch(fullEndpoint, requestObj);
     const result = await response.json();
     console.log(JSON.stringify(response));

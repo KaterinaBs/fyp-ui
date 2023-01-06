@@ -1,0 +1,49 @@
+
+
+div form.BorderedForm {
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255); 
+  border: 1px solid black;
+  border-radius: 20px;
+  }
+
+  div label.addHomeworkLabel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    color: royalblue;
+  }
+div.FormItem {
+
+  margin-bottom: 40px;
+}
+
+  
+  div.label.FormLabel {
+    display: block;
+    font-weight: 600;
+  }
+
+  
+  select,
+  input {
+    width: 50%;
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 100%;
+    border-radius: 5px;
+    border: 1px solid green;
+    background: White;
+
+  }
+  div p.FormError{
+    color: red;
+    margin-left: 10px;
+  }
+  div label.FormLabel{
+    font-weight: bold;
+    margin-left: 10px;
+  }
+ 

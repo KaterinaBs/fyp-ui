@@ -2,8 +2,7 @@ footer {
     height: 50px;
     display: grid;
     place-items: center;
-    border-top:  1px solid #038b82;
-    background: #956658;
+    background: #ffffff;
     opacity: 0.5;
 }
 

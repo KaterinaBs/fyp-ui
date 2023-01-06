@@ -1,27 +1,32 @@
-import { Link } from 'react-router-dom';
-
+import React from 'react';
+import { Link, NavLink} from 'react-router-dom';
+import './NavBar.css';
 import './Header.css';
+
+
 function Header() {
+
     //Properties------------------------------
     //Hooks-----------------------------------
     //Context---------------------------------
     //Methods---------------------------------
     //View------------------------------------
     return (
-        <div className="background-image">
+        
         <header>
-            <Link to= "/"> 
-                <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/344/external-owl-animals-dreamstale-lineal-dreamstale-1.png" alt = "Book Icon" size=''/> 
-            </Link>
-            
-            <Link to = "/">
-                <h1> Homework App</h1>
-            </Link>
-            <div className = "login">
-            <p>Hello user</p>
+            <ul>
+                <li><NavLink to='/' className='active'> My Modules </NavLink></li>
+                <li><Link>Announcements</Link></li>
+                <li><NavLink to='/myaccount'> My Account </NavLink></li>
+                <li><Link className="logout"> Log Out </Link></li>
+
+            </ul>
+            <div>
+            <Link to='/'  className='logo'> <h1>HomeworkApp </h1></Link>
             </div>
-        </header> 
-        </div>
+        </header>
+       
+
     )
 }
 
